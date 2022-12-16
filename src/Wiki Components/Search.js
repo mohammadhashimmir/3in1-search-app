@@ -53,14 +53,13 @@ const renderedResults=results.map((result)=>{
     <div className="ui form">
         <div className="Field">
         <label style={{marginLeft:"10px", fontSize:"15px"}}>Search Wikipedia</label>
-        <div className="ui large icon input"
+        <div className="ui large input"
         style={{width:"300px", marginLeft:"10px"}}>
         <input type="text" 
         value={term}
         placeholder="Search"
         onChange={(e)=>{ setTerm(e.target.value)}}
         style={{borderRadius:"20px"}}/>
-        <i className="inverted circular search link icon"></i>
     </div> 
        </div>
     </div>
