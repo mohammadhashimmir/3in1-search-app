@@ -10,10 +10,9 @@ return(
         <div className="ui large icon input"  style={{width:"300px", marginBottom:"20px", marginLeft:"10px"}}>
         <input type="text" 
         value={term}
-        placeholder="Search"
+        placeholder="Search free high-resolution photos"
         onChange={(e)=>{ setTerm(e.target.value)}}
         style={{borderRadius:"20px"}}/>
-        <i className="inverted circular search link icon"></i>
     </div> 
         </div>
         </form>
